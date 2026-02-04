@@ -10,14 +10,39 @@
      crossorigin=""></script>
      <link rel="stylesheet" href="style.css">
     <title>Biografía</title>
-</head>
+    <style>
+        .contenedor {
+            display: flex;
+            align-items: center;
+        }
+
+        .imagen {
+            margin-top: 100px;
+            margin-right: 100px;
+            margin-left: 100px;
+            margin-bottom: 100px;
+        }
+        .imagen img {
+            width: 500px;
+        }
+        .texto {
+            margin-right: 100px;
+        }
+    </style>
 <body>
-    <h1>CRISTIAN CAMILO PULIDO VERGEL
-    <div>
-        Aquí va la Foto
-    </div>
-    <div>
-        Aquí va la Biografía
+    <div class="contenedor">
+        <div class="imagen">
+            <img src="file.jpg" alt="Imagen de ejemplo" width="300">
+        </div>
+        <div class="texto">
+            <h1>CRISTIAN CAMILO PULIDO VERGEL</h1>
+            <p>
+                Es un Ingeniero Ambiental y Sanitario colombiano. Nacio el 14 de diciembre de 1997, en el municipio de Anolaima, Cundinamarca; 
+                es el menor de 6 hermanos, hijo de la señora Rosa María Vergel, a corta edad llego a vivir en la ciudad de Bogotá D.C. en donde paso sus primeros años de vida,
+                adolescencia y adultez. Se formo como Ingeniero Ambiental y Sanitario en la Universidad de La Salle, gracias al programa "Ser Pilo Paga" durante el segundo mandato
+                del Presidente Juan Manuel Santos Calderón. 
+            </p>
+        </div>
     </div>
     <div id="map">
     </div>   
